@@ -7,3 +7,7 @@ word-spacing: 5px;
    font-style: italic;
 
  }
+
+ #cresult, #javascresult, #pythonresult {
+   display: none;
+ }
