@@ -4,10 +4,13 @@ $(document).ready(function() {
     var selectedoption =  $("input:radio[name=language]:checked").val();
     if (selectedoption === "C#") {
     $("#cresult").show();
+    $("#javascresult, #pythonresult").hide();
   }else if (selectedoption === "javasc") {
         $("#javascresult").show();
+        $("#pythonresult, #cresult").hide();
   }else if (selectedoption === "python") {
     $("#pythonresult").show();
+    $("#javascresult, #cresult").hide();
   };
   });
   });
@@ -18,10 +21,13 @@ $(document).ready(function() {
       var selectedoption =  $("input:radio[name=skills]:checked").val();
       if (selectedoption === "C#") {
       $("#cresult").show();
+      $("#javascresult, #pythonresult").hide();
     }else if (selectedoption === "javasc") {
           $("#javascresult").show();
+          $("#pythonresult, #cresult").hide();
     }else if (selectedoption === "python") {
       $("#pythonresult").show()
+      $("#javascresult, #cresult").hide();
 
 
     };
@@ -33,11 +39,13 @@ $(document).ready(function() {
       var selectedoption =  $("input:radio[name=money]:checked").val();
       if (selectedoption === "C#") {
       $("#cresult").show();
+      $("#javascresult, #pythonresult").hide();
     }else if (selectedoption === "javasc") {
           $("#javascresult").show();
+          $("#pythonresult, #cresult").hide();
     }else if (selectedoption === "python") {
       $("#pythonresult").show();
-
+      $("#javascresult, #cresult").hide();
     };
     });
 
@@ -47,10 +55,13 @@ $(document).ready(function() {
         var selectedoption =  $("input:radio[name=characteristics]:checked").val();
         if (selectedoption === "C#") {
         $("#cresult").show();
+          $("#javascresult, #pythonresult").hide();
       }else if (selectedoption === "javasc") {
             $("#javascresult").show();
+            $("#pythonresult, #cresult").hide();
       }else if (selectedoption === "python") {
         $("#pythonresult").show();
+        $("#javascresult, #cresult").hide();
     };
     });
 
@@ -59,9 +70,12 @@ $(document).ready(function() {
       var selectedoption =  $("input:radio[name=name]:checked").val();
       if (selectedoption === "C#") {
       $("#cresult").show();
+        $("#javascresult, #pythonresult").hide();
     }else if (selectedoption === "javasc") {
-          $("#javascresult").show();
+      $("#pythonresult, #cresult").hide();
     }else if (selectedoption === "python") {
       $("#pythonresult").show();
+        $("#javascresult, #cresult").hide();
+
   };
   });
