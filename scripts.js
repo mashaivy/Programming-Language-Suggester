@@ -11,6 +11,7 @@ $(document).ready(function() {
   }else if (selectedoption === "python") {
     $("#pythonresult").show();
     $("#javascresult, #cresult").hide();
+
   };
   });
   });
@@ -28,7 +29,7 @@ $(document).ready(function() {
     }else if (selectedoption === "python") {
       $("#pythonresult").show()
       $("#javascresult, #cresult").hide();
-
+    }else {
 
     };
     });
@@ -76,6 +77,8 @@ $(document).ready(function() {
     }else if (selectedoption === "python") {
       $("#pythonresult").show();
         $("#javascresult, #cresult").hide();
-
+    }else {
+      alert("Please answer all question");
+    }
   };
   });
